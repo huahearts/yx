@@ -20,6 +20,7 @@ private:
 class Monster : public Unit {
 public:
     Monster() = default;
+    ~Monster() = default;
 };
 
 #endif
