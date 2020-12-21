@@ -16,4 +16,10 @@ private:
     int m_iMaxHp;
     int m_iCurHp;
 };
+
+class Monster : public Unit {
+public:
+    Monster() = default;
+};
+
 #endif
